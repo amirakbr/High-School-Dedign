@@ -30,3 +30,6 @@ body , html {
     overflow-x: hidden;
     background-color: rgb(116, 64, 211);
 }
+.backdropfilter {
+    backdrop-filter: blur(8px);
+}
