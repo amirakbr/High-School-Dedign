@@ -13,10 +13,11 @@ import AdditionalClasses from './Components/AdditionalClasses/AdditionalClasses'
 import BookNextYear from './Components/BookNextYear/BookNextYear'
 import Footer from './Components/Footer/Footer'
 const inter = Inter({ subsets: ['latin'] })
-
+import init from './KK'
+init(5) ;
 export default function Home() {
   return (
-    <Fragment>
+    <div className='flex flex-col'>
       <Header />
       <Hero />      
       <OurRecords />
@@ -27,6 +28,6 @@ export default function Home() {
       <AdditionalClasses />
       <BookNextYear />
       <Footer />
-    </Fragment>
+    </div>
   )
 }
